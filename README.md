@@ -24,3 +24,18 @@ Authors
 -------
 - Gautier Colajanni
 - Cyrille Delabre
+
+Installation
+------------
+
+Default authentication : admin / sports
+
+Deploy the repository and configurate your own copy with files in application/config
+
+Create a database and import the sql files required.
+
+Set your own API Key for Google Maps into application/views/lieux
+
+Access to the administration panel : ./admin
+
+Requires mod_rewrite on Apache2, be careful to the browser-caching gestion with CSS files

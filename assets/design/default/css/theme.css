@@ -1,0 +1,228 @@
+.center {
+     float: none;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+}
+.toupper{
+	text-transform:uppercase;
+}
+.no-padding{
+	padding : 0 0 0 0;
+}
+.padding-lr{
+	padding-left:5px;
+	padding-right:5px;
+}
+/*Couleurs Ecoles*/
+.insa-rennes{color:#EE4F24;}
+.insa-lyon{color:#FAA638;}
+.insa-toulouse{color:#B61B27;}
+.insa-rouen{color:#196AB3;}
+.insa-centre-val-de-loire{color:#5A2785;}
+.insa-strasbourg{color:#00883B;}
+/***********/
+/* Header */
+.navbar-default{
+	background-image: inherit;
+}
+.navbar-brand{
+	padding: 20px;
+}
+/***********/
+/* Accueil */
+
+
+.well{
+	background-image: inherit;
+	background-color: rgba(245, 245, 245, 0.95);
+	
+}
+
+
+#logo{
+	background: url("../images/logo.svg");
+	background-size:170px 100%;
+	background-repeat:no-repeat;
+	padding : 0 0 0 0;
+	height: 50px;
+	width: 170px;
+	text-indent: -999em;
+}
+/******************/
+/* Info Pratiques */
+
+/*icones*/
+
+.infos .list-group-item{padding: 10px 0;}
+.infos .glyphicon, .infos .flaticon{
+   	margin-right:10px;
+   	margin-left:10px;
+    line-height: 25px;
+    text-align: center;}
+
+/*************/
+/* Planning */ 
+/*************/
+
+/*Boutons*/
+.btn-group {
+	padding : 1px;
+}
+
+.btn {
+	padding: 5px;
+	line-height: 30px;
+	background-image: inherit;
+}
+/*Sports*/
+.btn-primary:hover, .btn-primary.active{
+	background-color:#2d6ca2;
+	border-color: #2b669a;
+}
+/*Animations*/
+.btn-danger:hover, .btn-danger.active{
+	background-color:#B61B27;
+	border-color: #b92c28;	
+}
+
+body {
+	padding: 1em;
+	background: white;
+	}
+
+/*Evenements*/
+.horaire-depasse {
+	display:none;
+	opacity:0.4;
+	margin-bottom : 5px;
+}
+.horaire-avenir{
+	margin-bottom : 5px;
+}
+/*raz*/
+.planning .panel-default{margin:0;background-color:transparent;margin-bottom: 20px;}
+.planning .panel-heading, .panel-footer{background-image: inherit;}
+.planning .panel-footer{font-style: italic;}
+/*anim/sport*/
+.planning .animation .panel-heading{background-color:#B61B27;color : white;}
+
+.planning .sport .panel-heading{background-color:#2d6ca2;color : white;}
+
+.planning .panel-body{background-color:#F0F0F0;}
+/* .planning .animation .panel-footer {background-color:#F0F0F0;color : #BEBEBE;}
+ */
+.planning .panel-footer{background-color:#C3C3C3;color : white;}
+
+.planning a{
+color: white;
+font-size: 13px;
+text-decoration: underline;
+}
+/*************/
+/*Résultats*/
+/*************/
+.list-group-item{
+	padding:0 0;
+	margin-bottom:5px;	
+}
+div.list-group-item a {
+	position: relative;
+	display:block;
+	color: #555;
+	padding: 10px 15px;
+	text-decoration:none; 
+}
+div.list-group-item:hover, div.list-group-item:focus {
+	text-decoration: none;
+	background-color: #c5c5c5;
+}
+.resultats .collapse_glyphicon{
+	background-color: #f0f0f0;
+}
+.resultats .glyphicon{
+	line-height: 0;
+	font-style: italic;
+}
+
+/*Sports*/
+.sport .right{
+	text-align: right;
+}
+.animation .right{
+	text-align: right;
+}
+.sport .centrer{
+	text-align: center;
+}
+.sport .ecole{
+	-webkit-transform:inherit;
+	font-style: italic;
+}
+.sport .equipe{
+	font-style: bold;
+}
+.font-style{ italic;
+}
+
+.resultats .flaticon{
+	    	
+   	margin-right:0px;
+   	margin-left:5px;
+    line-height: 25px; 
+
+ }
+ .sport .list-group-item{
+	padding:10px 0;
+}
+/***********/
+/* Lieux */
+
+@media (max-width:992px) {
+    .lieux {
+	width :100%;
+	position : absolute;
+	top:51px;
+	left:0px;
+	right:0px;
+
+}
+}
+
+
+
+/***********/
+/* Administration */
+
+div.admin-panel ul {
+	margin:0;
+}
+
+div.admin-panel ul li a {
+	display:block;
+	line-height:35px;
+	font-size:110%;
+}
+ 
+
+
+/*********/
+/*Autres*/
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  padding-left : 0px;
+  padding-right: 0px; 
+}
+.panel-heading, .panel-body, .panel-footer{
+	padding-left:2%;
+	padding-right:2%;
+}
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
